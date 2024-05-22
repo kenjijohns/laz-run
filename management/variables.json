@@ -1,0 +1,48 @@
+[
+  {
+    "name": "h1_font-size",
+    "label": "Font Size:",
+    "type": "radio",
+    "options": [
+      { "value": "clamp(18px, 2vw, 36px)", "label": "Small" },
+      { "value": "clamp(24px, 2vw, 36px)", "label": "Medium" },
+      { "value": "clamp(34px, 2vw, 56px)", "label": "Large" }
+    ]
+  },
+  {
+    "name": "h1_font-weight",
+    "label": "Font Weight:",
+    "type": "radio",
+    "options": [
+      { "value": "bold", "label": "Bold" },
+      { "value": "normal", "label": "Normal" }
+    ]
+  },
+  {
+    "name": "h1_letter-spacing",
+    "label": "Letter Spacing:",
+    "type": "text"
+  },
+  {
+    "name": "h1_line-height",
+    "label": "Line Height:",
+    "type": "text"
+  },
+  {
+    "name": "h1_color",
+    "label": "Color: ",
+    "type": "color"
+  },
+  {
+    "name": "button_width",
+    "label": "Button Width",
+    "type": "radio",
+    "options": [
+      { "label": "50%", "value": "50%" },
+      {
+        "label": "100%",
+        "value": "100%"
+      }
+    ]
+  }
+]

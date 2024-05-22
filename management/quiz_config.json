@@ -1,0 +1,152 @@
+[
+  {
+    "element": "bg-image",
+    "id": "bg_quiz",
+    "label": "Background Image",
+    "settings": [
+      {
+        "name": "bg_quiz",
+        "label": "Background Image:",
+        "id": "bg_quiz",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "element": "question_container",
+    "id": "q_container-group",
+    "label": "Question Container",
+    "settings": [
+      {
+        "name": "q_container_background-color",
+        "label": "Background Color",
+        "id": "q_container_background-color",
+        "type": "color"
+      },
+      {
+        "name": "q_container_border-radius",
+        "label": "Border Radius",
+        "id": "q_container_border-radius",
+        "type": "radio",
+        "options": [
+          { "value": "0px", "label": "None" },
+          { "value": "5px", "label": "Small" },
+          { "value": "10px", "label": "Medium" },
+          { "value": "20px", "label": "Large" }
+        ]
+      },
+      {
+        "name": "q_container_border-width",
+        "label": "Border Width",
+        "id": "q_container_border-width",
+        "type": "radio",
+        "options": [
+          { "value": "0px", "label": "None" },
+          { "value": "2px", "label": "Small" },
+          { "value": "5px", "label": "Medium" },
+          { "value": "10px", "label": "Large" }
+        ]
+      },
+      {
+        "name": "q_container_border-color",
+        "label": "Border Color",
+        "id": "q_container_border-color",
+        "type": "color"
+      }
+    ]
+  },
+  {
+    "element": "h3",
+    "id": "h3-group",
+    "label": "Question",
+    "settings": [
+      {
+        "name": "h3_font-size",
+        "label": "Font Size",
+        "id": "h3_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "clamp(16px, 2vw, 24px)", "label": "Small" },
+          { "value": "clamp(20px, 2vw, 26px)", "label": "Medium" },
+          { "value": "clamp(24px, 2vw, 36px)", "label": "Large" }
+        ]
+      },
+      {
+        "name": "h3_color",
+        "label": "Text Color",
+        "id": "h3_color",
+        "type": "color"
+      },
+      {
+        "name": "h3_font-weight",
+        "label": "Font Weight",
+        "id": "h3_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "bold", "label": "Bold" },
+          { "value": "normal", "label": "Normal" }
+        ]
+      }
+    ]
+  },
+  {
+    "element": "next-button",
+    "id": "button-group",
+    "label": "Next Button",
+    "settings": [
+      {
+        "name": "next_color",
+        "label": "Text Color",
+        "id": "next_color",
+        "type": "color"
+      },
+      {
+        "name": "next_background-color",
+        "label": "Background Color",
+        "id": "next_background-color",
+        "type": "color"
+      },
+      {
+        "name": "next_background-image",
+        "label": "Background Gradient",
+        "id": "next_background-image",
+        "type": "gradient"
+      }
+    ]
+  },
+  {
+    "element": "progress_bar",
+    "id": "progress_bar",
+    "label": "Progress Bar",
+    "settings": [
+      {
+        "name": "progress_bar_background-color",
+        "label": "Background Color",
+        "id": "progress_bar_background-color",
+        "type": "color"
+      },
+      {
+        "name": "progress_bar_border-color",
+        "label": "Border Color",
+        "id": "progress_bar_border-color",
+        "type": "color"
+      },
+      {
+        "name": "progress_background-color",
+        "label": "Progress Background Color",
+        "id": "progress_bar_background-color",
+        "type": "color"
+      },
+      {
+        "name": "progress_bar_border-radius",
+        "label": "Border Radius",
+        "id": "progress_bar_border-radius",
+        "type": "radio",
+        "options": [
+          { "value": "0px", "label": "None" },
+          { "value": "10px", "label": "Small" }
+        ]
+      }
+    ]
+  }
+]

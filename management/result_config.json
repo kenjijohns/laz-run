@@ -1,0 +1,77 @@
+[
+  {
+    "element": "bg-image",
+    "id": "bg_result",
+    "label": "Background Image",
+    "settings": [
+      {
+        "name": "bg_result",
+        "label": "Background Image:",
+        "id": "bg_result",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "element": "result_h3",
+    "id": "result_h3",
+    "label": "Text",
+    "settings": [
+      {
+        "name": "text-3",
+        "label": "Text 1:",
+        "id": "text-3",
+        "type": "textarea"
+      },
+      {
+        "name": "text-4",
+        "label": "Text 2:",
+        "id": "text-4",
+        "type": "textarea"
+      }
+    ]
+  },
+  {
+    "element": "product-container",
+    "id": "product-container",
+    "label": "Product Container",
+    "settings": [
+      {
+        "name": "product_container_background_image",
+        "label": "Background Color:",
+        "id": "product_container_background_image",
+        "type": "color"
+      },
+      {
+        "name": "product_container_border-radius",
+        "label": "Border Radius",
+        "id": "product_container_border-radius",
+        "type": "radio",
+        "options": [
+          { "value": "0px", "label": "None" },
+          { "value": "8px", "label": "Small" },
+          { "value": "15px", "label": "Medium" },
+          { "value": "22px", "label": "Large" }
+        ]
+      },
+      {
+        "name": "product_container_border-width",
+        "label": "Border Width",
+        "id": "product_container_border-width",
+        "type": "radio",
+        "options": [
+          { "value": "0px", "label": "None" },
+          { "value": "2px", "label": "Small" },
+          { "value": "5px", "label": "Medium" },
+          { "value": "7px", "label": "Large" }
+        ]
+      },
+      {
+        "name": "product_container_border-color",
+        "label": "Border Color:",
+        "id": "product_container_border-color",
+        "type": "color"
+      }
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+.table thead th:nth-child(1) {
+  width: 150px;
+}
+
+.table thead th {
+  text-align: left;
+}
+
+.table tbody {
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+td {
+  border: none;
+  background: none !important;
+}
+
+.table td,
+.table th {
+  border: none !important;
+}
+
+/* .table-hover > tbody > tr:hover > * {
+    --bs-table-color-state: none;
+    --bs-table-bg-state: none;
+  } */
+
+.table {
+  --bs-table-color-type: initial;
+  --bs-table-bg-type: initial;
+  --bs-table-color-state: initial;
+  --bs-table-bg-state: initial;
+  --bs-table-color: var(--bs-emphasis-color);
+  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-border-color: var(--bs-border-color);
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: var(--bs-emphasis-color);
+  --bs-table-striped-bg: rgba(var(--bs-emphasis-color-rgb), 0.05);
+  --bs-table-active-color: none !important;
+  --bs-table-active-bg: none !important;
+  --bs-table-hover-color: none !important;
+  --bs-table-hover-bg: none !important;
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: top;
+  border-color: var(--bs-table-border-color);
+}
+
+button.btn.btn-light {
+  padding: 3px;
+}
+.btn-light {
+  color: #dfdfdf !important;
+  background-color: #f8f9fa00 !important;
+  border-color: #f8f9fa00 !important;
+}
+
+.btn-light:hover {
+  color: #212529 !important;
+  background-color: #fff0;
+  border-color: #fff0;
+}
+
+.rounded-15 {
+  border-radius: 15px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column !important;
+  }
+
+  .table thead th {
+    text-align: center;
+  }
+
+  .table tbody {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-height {
+    height: 80%;
+  }
+}

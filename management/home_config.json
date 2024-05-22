@@ -1,0 +1,130 @@
+[
+  {
+    "element": "bg-image",
+    "id": "bg_home",
+    "label": "Background Image",
+    "settings": [
+      {
+        "name": "bg_home",
+        "label": "Background Image:",
+        "id": "bg_home",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "element": "h1",
+    "id": "h1-group",
+    "label": "Title",
+    "page": ["home"],
+    "settings": [
+      {
+        "name": "home-title",
+        "label": "Title:",
+        "id": "home-title",
+        "type": "textarea"
+      },
+      {
+        "name": "h1_font-size",
+        "label": "Font Size:",
+        "id": "h1_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "clamp(18px, 2vw, 36px)", "label": "Small" },
+          { "value": "clamp(24px, 2vw, 36px)", "label": "Medium" },
+          { "value": "clamp(34px, 2vw, 56px)", "label": "Large" }
+        ]
+      },
+      {
+        "name": "h1_font-weight",
+        "label": "Font Weight:",
+        "id": "h1_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "bold", "label": "Bold" },
+          { "value": "normal", "label": "Normal" }
+        ]
+      },
+      {
+        "name": "h1_color",
+        "label": "Text Color: ",
+        "id": "h1_color",
+        "type": "color"
+      }
+    ]
+  },
+  {
+    "element": "button",
+    "id": "button-group",
+    "label": "Buttons",
+    "page": ["home", "category", "quiz"],
+    "settings": [
+      {
+        "name": "button_color",
+        "label": "Text Color",
+        "id": "button_color",
+        "type": "color"
+      },
+      {
+        "name": "button_background-color",
+        "label": "Background Color",
+        "id": "button_background-color",
+        "type": "color"
+      },
+      {
+        "name": "button_background-image",
+        "label": "Background Gradient",
+        "id": "button_background-image",
+        "type": "gradient"
+      },
+      {
+        "name": "button_hover_color",
+        "label": "On-Hover Text Color",
+        "id": "button_hover_color",
+        "type": "color"
+      },
+      {
+        "name": "button_hover_background-color",
+        "label": "On-Hover Background Color",
+        "id": "button_hover_background-color",
+        "type": "color"
+      },
+      {
+        "name": "button_hover_background-image",
+        "label": "On-Hover Background Gradient",
+        "id": "button_hover_background-image",
+        "type": "gradient"
+      },
+      {
+        "name": "button_border-radius",
+        "label": "Border Radius",
+        "id": "button_border-radius",
+        "type": "radio",
+        "options": [
+          { "label": "None", "value": "0" },
+          { "label": "Small", "value": "10px" },
+          { "label": "Medium", "value": "15px" },
+          { "label": "Large", "value": "30px" }
+        ]
+      },
+      {
+        "name": "button_border-width",
+        "label": "Border Width",
+        "id": "button_border-width",
+        "type": "radio",
+        "options": [
+          { "label": "None", "value": "0" },
+          { "label": "Small", "value": "2px" },
+          { "label": "Medium", "value": "3px" },
+          { "label": "Large", "value": "4px" }
+        ]
+      },
+      {
+        "name": "button_border-color",
+        "label": "Border Color",
+        "id": "button_border-color",
+        "type": "color"
+      }
+    ]
+  }
+]

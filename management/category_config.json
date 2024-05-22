@@ -1,0 +1,195 @@
+[
+  {
+    "element": "bg-image",
+    "id": "bg_category",
+    "label": "Background Image",
+    "settings": [
+      {
+        "name": "bg_category",
+        "label": "Background Image:",
+        "id": "bg_category",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "element": "text",
+    "id": "text",
+    "label": "Category Text",
+    "settings": [
+      {
+        "name": "text-1",
+        "label": "Text 1:",
+        "id": "text-1",
+        "type": "textarea"
+      },
+      {
+        "name": "text-1_color",
+        "label": "Text Color:",
+        "id": "text-1_color",
+        "type": "color"
+      },
+      {
+        "name": "text-1_font-size",
+        "label": "Font Size:",
+        "id": "text-1_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "clamp(16px, 2vw, 20px)", "label": "Small" },
+          { "value": "clamp(20px, 2vw, 28px)", "label": "Medium" },
+          { "value": "clamp(24px, 2vw, 32px)", "label": "Large" }
+        ]
+      },
+      {
+        "name": "text-1_font-weight",
+        "label": "Font Weight:",
+        "id": "text-1_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "300", "label": "Thin" },
+          { "value": "normal", "label": "Normal" },
+          { "value": "bold", "label": "Bold" }
+        ]
+      },
+      {
+        "name": "text-2",
+        "label": "Text 2:",
+        "id": "text-2",
+        "type": "textarea"
+      },
+      {
+        "name": "text-2_color",
+        "label": "Text Color:",
+        "id": "text-2_color",
+        "type": "color"
+      },
+      {
+        "name": "text-2_font-size",
+        "label": "Font Size:",
+        "id": "text-2_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "40px", "label": "Small" },
+          { "value": "50px", "label": "Medium" },
+          { "value": "70px", "label": "Large" }
+        ]
+      },
+      {
+        "name": "text-2_font-weight",
+        "label": "Font Weight:",
+        "id": "text-2_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "300", "label": "Thin" },
+          { "value": "normal", "label": "Normal" },
+          { "value": "bold", "label": "Bold" }
+        ]
+      }
+    ]
+  },
+  {
+    "element": "category-title",
+    "id": "category-title",
+    "label": "Category Title",
+    "settings": [
+      {
+        "name": "category-title_color",
+        "label": "Text Color:",
+        "id": "category-title_color",
+        "type": "color"
+      },
+      {
+        "name": "category-title_font-size",
+        "label": "Font Size:",
+        "id": "category-title_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "clamp(16px, 2vw, 20px)", "label": "Small" },
+          { "value": "clamp(20px, 2vw, 26px)", "label": "Medium" },
+          { "value": "clamp(24px, 2vw, 32px)", "label": "Large" }
+        ]
+      },
+      {
+        "name": "category-title_font-weight",
+        "label": "Font Weight:",
+        "id": "category-title_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "300", "label": "Thin" },
+          { "value": "normal", "label": "Normal" },
+          { "value": "bold", "label": "Bold" }
+        ]
+      }
+    ]
+  },
+  {
+    "element": "category-name",
+    "id": "category-name",
+    "label": "Category Name",
+    "settings": [
+      {
+        "name": "category-name_color",
+        "label": "Text Color:",
+        "id": "category-name_color",
+        "type": "color"
+      },
+      {
+        "name": "category-name_font-size",
+        "label": "Font Size:",
+        "id": "category-name_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "clamp(16px, 2vw, 20px)", "label": "Small" },
+          { "value": "clamp(20px, 2vw, 28px)", "label": "Medium" },
+          { "value": "clamp(24px, 2vw, 32px)", "label": "Large" }
+        ]
+      },
+      {
+        "name": "category-name_font-weight",
+        "label": "Font Weight:",
+        "id": "category-name_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "300", "label": "Thin" },
+          { "value": "normal", "label": "Normal" },
+          { "value": "bold", "label": "Bold" }
+        ]
+      }
+    ]
+  },
+  {
+    "element": "p",
+    "id": "p",
+    "label": "Category Description",
+    "settings": [
+      {
+        "name": "p_color",
+        "label": "Text Color:",
+        "id": "p_color",
+        "type": "color"
+      },
+      {
+        "name": "p_font-size",
+        "label": "Font Size:",
+        "id": "p_font-size",
+        "type": "radio",
+        "options": [
+          { "value": "clamp(14px, 2vw, 14px)", "label": "Small" },
+          { "value": "clamp(18px, 2vw, 18px)", "label": "Medium" },
+          { "value": "clamp(20px, 2vw, 20px)", "label": "Large" }
+        ]
+      },
+      {
+        "name": "p_font-weight",
+        "label": "Font Weight:",
+        "id": "p_font-weight",
+        "type": "radio",
+        "options": [
+          { "value": "300", "label": "Thin" },
+          { "value": "normal", "label": "Normal" },
+          { "value": "bold", "label": "Bold" }
+        ]
+      }
+    ]
+  }
+]
